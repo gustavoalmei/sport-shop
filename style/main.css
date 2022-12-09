@@ -1,0 +1,62 @@
+main{
+    width: 100%;
+}
+
+/* carousel */
+.carousel{
+    background-color: var(--gray-light);
+    height: 500px;
+    position: relative;
+}
+
+.carousel .container{
+    padding: 0;
+}
+
+.carousel-images{
+    overflow: hidden;
+    height: 100%;
+}
+
+.carousel-images img{
+    height: 500px;
+    object-fit: cover;
+}
+
+/* dots carousel */
+
+.slick-dots{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    bottom: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li.slick-active button{
+    background-color: #333;
+}
+
+.slick-dots li{
+    margin: 0 5px;
+}
+
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width:320px){
+
+}
+
+@media screen and (min-width:641px) and (max-width:1023px){
+
+}
