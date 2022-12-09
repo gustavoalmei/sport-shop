@@ -7,9 +7,9 @@ $(document).ready(function(){
         slidesToShow: 1,
         dots:true,
     })
-    console.log($(".slick-dots li button").each(function(){
+    $(".slick-dots li button").each(function(){
         $(this).text("")
-    }))
+    })
 
     $(".item-menu").mouseenter(function(){
         $(this).find(".sub-menu").slideDown('fast')
