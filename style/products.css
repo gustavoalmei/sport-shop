@@ -58,7 +58,7 @@ section{
     transition: all 350ms;
 }
 
-@media screen and (min-width:320px) and (max-width:640px){
+@media screen and (max-width:640px){
     .grid-product{
         grid-template-columns: 90%;
         justify-content: center;

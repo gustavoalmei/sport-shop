@@ -12,7 +12,7 @@ footer{
     margin: 0 10px;
 }
 
-@media screen and (min-width:320px) and (max-width:640px){
+@media screen and (max-width:640px){
     .footer-items{
         flex-direction: column;
         justify-content: space-between;

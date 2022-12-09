@@ -52,11 +52,3 @@ main{
     background-color: #fff;
     cursor: pointer;
 }
-
-@media screen and (min-width:320px){
-
-}
-
-@media screen and (min-width:641px) and (max-width:1023px){
-
-}
